@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/Java/eclipse/plugins/org.eclipse.core.commands_3.9.600.v20191122-2109.jar"/>
+	<classpathentry kind="lib" path="D:/Java/eclipse/plugins/org.eclipse.jface.text_3.16.100.v20191203-1634.jar"/>
+	<classpathentry kind="lib" path="D:/Java/eclipse/plugins/org.eclipse.equinox.common_3.10.600.v20191004-1420.jar"/>
+	<classpathentry kind="lib" path="D:/Java/eclipse/plugins/org.eclipse.jface_3.18.0.v20191122-2109.jar"/>
+	<classpathentry kind="lib" path="D:/Java/eclipse/plugins/org.eclipse.swt.win32.win32.x86_64_3.113.0.v20191204-0601.jar"/>
+	<classpathentry kind="lib" path="D:/Java/eclipse/plugins/org.eclipse.swt_3.113.0.v20191204-0601.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
