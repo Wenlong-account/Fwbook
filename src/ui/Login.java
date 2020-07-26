@@ -1,5 +1,8 @@
 package ui;
 
+import java.awt.Dimension;
+import java.awt.Toolkit;
+
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 
@@ -40,8 +43,14 @@ public class Login {
 	 */
 	protected void createContents() {
 		shell = new Shell();
-		shell.setSize(450, 300);
-		shell.setText("SWT Application");
+		Toolkit kit = Toolkit.getDefaultToolkit();//定义工具包
+		Dimension screenSize = kit.getScreenSize();//获取屏幕的尺寸
+		int screenWidth = screenSize.width;//获取屏幕的宽
+		int screenHeight = screenSize.height;//获取屏幕的高
+		int shellWidth = 512;//设置窗口的宽
+		int shellHeight = 512;//设置窗口的高
+		shell.setBounds((screenWidth-shellWidth)/2, (screenHeight-shellHeight)/2, shellWidth, shellHeight);
+		shell.setText("Login");
 
 	}
 
